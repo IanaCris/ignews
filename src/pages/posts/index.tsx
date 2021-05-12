@@ -8,24 +8,24 @@ export default function Posts() {
         <title>Post | Ignews</title>
       </Head>
 
-      <main>
-        <div>
-          <a>
+      <main className={styles.container}>
+        <div className={styles.posts}>
+          <a href="#">
             <time>12 de março de 2021</time>
             <strong> Create a mongobd with Lerna</strong>
             <p>In this guide, you will learn how to create a Monday</p>
           </a>
-          <a>
+          <a href="#">
             <time>12 de março de 2021</time>
             <strong> Create a monorepo with Lerna</strong>
             <p>In this guide, you will learn how to create a monorepo</p>
           </a>
-          <a>
+          <a href="#">
             <time>12 de março de 2021</time>
             <strong> Create a monorepo with Lerna</strong>
             <p>In this guide, you will learn how to create a monorepo</p>
           </a>
-          <a>
+          <a href="#">
             <time>12 de março de 2021</time>
             <strong> Create a monorepo with Lerna</strong>
             <p>In this guide, you will learn how to create a monorepo</p>
